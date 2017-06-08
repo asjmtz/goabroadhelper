@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  color: #292d38; }
+
+.container {
+  width: 1366px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1366px) {
+    .container {
+      width: 100%; } }
+
+.header {
+  background: #d9e1e8;
+  padding: 50px 0; }
+
+.logo {
+  margin: 0 auto;
+  text-align: center; }
+  .logo h1 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: normal; }
+
+.grid {
+  display: flex; }
+  .grid .section {
+    flex: 1;
+    padding: 2em; }
+    .grid .section:nth-child(1) {
+      text-align: right; }
+    .grid .section:nth-child(2) {
+      text-align: left; }
+
+.day, .night {
+  color: #d9e1e8; }
+
+.day {
+  background: #2b90d9; }
+
+.night {
+  background: #292d38; }
+
+.content.list {
+  list-style: none;
+  max-width: 400px;
+  width: 100%;
+  float: right; }
+  .content.list > .item {
+    padding: 1em; }
+
+.input.currency {
+  display: flex; }
+  .input.currency > label {
+    width: 60px;
+    color: #f9a937;
+    font-size: 1.25em; }
+  .input.currency > input {
+    flex: 1;
+    height: 30px;
+    margin-left: 20px;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background: none;
+    border: 0;
+    text-align: right;
+    transition: all 0.3s ease-in-out; }
+    .input.currency > input:focus {
+      outline: 0;
+      border-bottom: 1px solid; }
+    .input.currency > input::-webkit-input-placeholder {
+      color: #9baec8; }
+
+.zones {
+  list-style: none; }
+  .zones > .item {
+    padding: 0.5em; }
+
+.footer {
+  height: 50px;
+  background: #d9e1e8; }

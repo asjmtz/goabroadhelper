@@ -1,0 +1,15 @@
+{
+  "name": "go-abroad-helper",
+  "version": "0.0.1",
+  "description": "userful tool for going abroad, such as currency converter, timezone converter & weather ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "asjmtzhang@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
